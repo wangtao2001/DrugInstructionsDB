@@ -6,9 +6,21 @@
 # 国家药品编码本位码（截至2021年6月30日）
 # https://www.nmpa.gov.cn/zwfw/zwfwzxfw/zxfwsjxz/20210705092119131.html
 
-import pandas as pd
-
-import getdata
+from get_ins import *
 
 if __name__ == '__main__':
-    pass
+    data = pd.read_excel('resources/国家药品编码本位码信息（国产药品）.xlsx', sheet_name=0, engine='openpyxl', header=2)
+    cde_ins = [] # 表示是否在cde中找到数据
+    for i in range(data.shape[0]):  # 行数
+        drug_info = data.iloc[i]
+        g = GetIns(drug_info)
+        links = g._get_links()
+        if links:  # 不为空
+            link = 'http:' + links[0]
+            cde_ins.append(True)
+            g.down_ins(link)
+            # 解析部分
+        else:
+            cde_ins.append(False)
+    data['cde_ins'] = cde_ins
+
