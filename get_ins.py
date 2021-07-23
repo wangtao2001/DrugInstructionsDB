@@ -10,7 +10,7 @@ import pandas as pd
 
 
 class GetIns(object):
-    def __init__(self, drug_info: pd.Series): # 不是全部下载的原因是系统限制只展示前10页
+    def __init__(self, drug_info: pd.Series):  # 不是全部下载的原因是系统限制只展示前10页
         self.firm = drug_info['生产单位']
         if self.firm is np.NaN:  # 极少数药品没有生产单位标注，使用上市许可证持有人替代(一般不涉及)
             # 2998条数据二者不一致
@@ -67,6 +67,9 @@ class GetIns(object):
         return links
 
     def _get_links(self):
+        """
+        从CDE上抓取说明书链接并返回
+        """
         root_url = 'http://list.cde.org.cn/index/instruction'
         params = {'pzwh': self.number}
 
@@ -81,16 +84,17 @@ class GetIns(object):
             pass
         return links
 
-    def down_ins(self, link):
+    def down_ins(self, link):  # 化学药品
+        """
+        下载说明书文件并返回文件名
+        """
         r = requests.get(link, headers=self.headers, timeout=30)
         r.encoding = r.apparent_encoding
-        f = open(f'instructions/{link.split("/")[-1]}', 'wb')
+        file_name = link.split("/")[-1]  # ins file_name
+        f = open(f'instructions/{file_name}', 'wb')
         f.write(r.content)
         f.close()
-
-
-if __name__ == "__main__":
-    pass
+        return file_name
 
 
 
