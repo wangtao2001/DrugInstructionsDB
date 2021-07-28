@@ -66,9 +66,9 @@ class GetIns(object):
         # 链接包含绝对链接、相对链接
         return links
 
-    def _get_links(self):
+    def get_links_cde(self):
         """
-        从CDE上抓取说明书链接并返回
+        从cde上抓取说明书链接并返回
         """
         root_url = 'http://list.cde.org.cn/index/instruction'
         params = {'pzwh': self.number}
@@ -91,7 +91,7 @@ class GetIns(object):
         r = requests.get(link, headers=self.headers, timeout=30)
         r.encoding = r.apparent_encoding
         file_name = link.split("/")[-1]  # ins file_name
-        f = open(f'instructions/{file_name}', 'wb')
+        f = open(f'instructions/cde_domestic/{file_name}', 'wb')
         f.write(r.content)
         f.close()
         return file_name
