@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5e0caab-7cb6-4185-8659-b2c404110957" name="默认变更列表" comment="format the directory">
-      <change afterPath="$PROJECT_DIR$/base/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/basic/parser/main.py" afterDir="false" />
+    <list default="true" id="c5e0caab-7cb6-4185-8659-b2c404110957" name="默认变更列表" comment="get new data">
+      <change afterPath="$PROJECT_DIR$/data/data1/表结构.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_ins.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/get_ins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/AdverseReaction.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/AdverseReaction.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/BasicInfo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/BasicInfo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/Character.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Character.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/Dosage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Dosage.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/DrugInteraction.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/DrugInteraction.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/DrugName.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/DrugName.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/Indication.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Indication.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/Interaction.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Interaction.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/MainCompounds.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/MainCompounds.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/Precautions.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Precautions.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/Storage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Storage.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/TakeMedicInfo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/TakeMedicInfo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/new/pharmaToxicology.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/pharmaToxicology.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/新建 XLSX 工作表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/新建 XLSX 工作表.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/说明文档.docx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/说明文档.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data1/request/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data1/request/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +44,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Python" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/data1/request/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/data1" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\data\data1" />
       <recent name="C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharm2021.1\scratches" />
       <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\info" />
       <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\resources" />
@@ -141,6 +124,8 @@
       <workItem from="1627711996669" duration="1273000" />
       <workItem from="1627713292840" duration="261000" />
       <workItem from="1627713569745" duration="1928000" />
+      <workItem from="1627715525935" duration="902000" />
+      <workItem from="1627716451217" duration="5387000" />
     </task>
     <task id="LOCAL-00001" summary="add pdfparser and getpdf">
       <created>1626338843836</created>
@@ -170,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627441243807</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="get new data">
+      <created>1627715615616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627715615616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +215,8 @@
     <MESSAGE value="add the schema of this database" />
     <MESSAGE value="finish get basic info" />
     <MESSAGE value="format the directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="format the directory" />
+    <MESSAGE value="get new data" />
+    <option name="LAST_COMMIT_MESSAGE" value="get new data" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -241,7 +234,7 @@
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$scratch.coverage" NAME="scratch 覆盖结果" MODIFIED="1627541406542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$t.coverage" NAME="t 覆盖结果" MODIFIED="1627542493237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$getdata.coverage" NAME="getdata 覆盖结果" MODIFIED="1626398927737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main.coverage" NAME="main 覆盖结果" MODIFIED="1627715391722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data1/request" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main.coverage" NAME="main 覆盖结果" MODIFIED="1627721973029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data1/request" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1627715354953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data1/request" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$request__1_.coverage" NAME="request (1) 覆盖结果" MODIFIED="1626658201996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1627697606117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/request" />

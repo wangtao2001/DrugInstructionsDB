@@ -1,0 +1,28 @@
+BasicInfo  基本信息<approvalNum批准文号 drugsType药品类型 prescriptions处方类型 validityPeriod有效期  specification规格  enterprise生产企业>
+
+DrugName 名称<productName 商品名称 commonName通用名称 pinyinName拼音名称>
+
+Character  性状
+
+Dosage 用法用量
+
+AdverseReaction 不良反应
+
+DrugInteraction  药物相互作用
+
+Indication  适应症
+
+MainCompounds  主要成分
+
+PharmacologyToxicology  药理学毒理学
+
+Pharmacokinetics 药代动力学
+
+Precautions 注意事项
+
+Taboo  禁忌
+
+Storage 贮存
+
+SpecialCrowd 特殊人群用药 <pregnant  孕妇及哺乳期妇女  child 儿童 elderly老人>
+
