@@ -8,7 +8,7 @@ import re
 
 
 def pdfParse(file_name, save_path):
-    pdf = open(f'instructions/{file_name}', 'r', encoding='utf-8')
+    pdf = open(f'../instructions/{file_name}', 'r', encoding='utf-8')
     parser = PDFParser(pdf)
     doc = PDFDocument()
     parser.set_document(doc)
@@ -39,9 +39,9 @@ def htmlParse(html, save_path):
     pass
 
 
-def docParse(file_name, save_path):  #形参：文件名，保存路径（包含文件名）
+def docParse(file_name, save_path):  # 形参：文件名，保存路径（包含文件名）
     f = open(f'{save_path}', 'a', encoding='utf-8')
-    doc = docx.Document(f'instructions/{file_name}')
+    doc = docx.Document(f'../instructions/{file_name}')
     # 两种组织形式 段落和表格，无法同时读取
     for para in doc.paragraphs:  # 读取基本文字
         f.write(para.text + '\n')
@@ -61,7 +61,7 @@ def docParse(file_name, save_path):  #形参：文件名，保存路径（包含
 
 
 class Parser:  # 解析当前目录下已经转换为txt的说明书
-    def __init__(self, n, dosageForm, domestic=True):  # n:16进制顺序码 domestic是否为国产
+    def __init__(self, n, save_path, dosageForm, domestic=True):  # n:顺序码 domestic是否为国产
         self.id = ''
         self.n = n
         self.dosageForm = dosageForm
@@ -70,7 +70,7 @@ class Parser:  # 解析当前目录下已经转换为txt的说明书
         else:
             self.domestic = 1
 
-        f = open('demo.txt', 'r', encoding='utf-8')
+        f = open(f'{save_path}', 'r', encoding='utf-8')
         self.lines = f.readlines()  # 包含所有行的列表
 
         self.delimit = []  # 划分每一个部分，汇总到列表中
@@ -112,11 +112,6 @@ class Parser:  # 解析当前目录下已经转换为txt的说明书
         find('有效期', 'validityTerm')
         basic_info['validityTerm'] = int(basic_info['validityTerm'].split('个月')[0])
 
-
-if __name__ == "__main__":
-    docParse('cde_domestic', )
-    p = Parser(0, '片剂')
-    p.get_basic_info()
 
 
 

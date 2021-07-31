@@ -2,6 +2,7 @@
 # -*-coding: utf-8-*-
 # @author:  wangtao
 # @data: 21/07/15, Thurs
+
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
@@ -91,7 +92,7 @@ class GetIns(object):
         r = requests.get(link, headers=self.headers, timeout=30)
         r.encoding = r.apparent_encoding
         file_name = link.split("/")[-1]  # ins file_name
-        f = open(f'instructions/cde_domestic/{file_name}', 'wb')
+        f = open(f'../instructions/cde_domestic/{file_name}', 'wb')
         f.write(r.content)
         f.close()
         return file_name

@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5e0caab-7cb6-4185-8659-b2c404110957" name="默认变更列表" comment="add the schema of this database">
+    <list default="true" id="c5e0caab-7cb6-4185-8659-b2c404110957" name="默认变更列表" comment="format the directory">
+      <change afterPath="$PROJECT_DIR$/base/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/basic/parser/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_ins.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_ins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_ins.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/get_ins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/AdverseReaction.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/AdverseReaction.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/BasicInfo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/BasicInfo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/Character.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Character.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/Dosage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Dosage.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/DrugInteraction.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/DrugInteraction.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/DrugName.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/DrugName.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/Indication.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Indication.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/Interaction.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Interaction.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/MainCompounds.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/MainCompounds.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/Precautions.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Precautions.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/Storage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/Storage.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/TakeMedicInfo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/TakeMedicInfo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/new/pharmaToxicology.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/basic/pharmaToxicology.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/新建 XLSX 工作表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/新建 XLSX 工作表.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/说明文档.docx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/说明文档.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -31,11 +48,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/parser.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/get_ins.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1vLQDGxVRN3lUJ9MrI5xKpdOYtE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,22 +60,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Python" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/info" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/data1/request/main.py" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharm2021.1\scratches" />
       <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\info" />
       <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB" />
-      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\resources" />
+      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\data\data1\request" />
+      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\data\basic" />
+      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\data\parser" />
+      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\info" />
+      <recent name="D:\OneDrive\药品说明书\DrugInstructionsDB\info\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="get_ins" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DrugInstructionsDB" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,12 +89,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/data1/request" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_ins.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data1/request/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,147 +103,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_ins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DrugInstructionsDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\OneDrive\药品说明书\DrugInstructionsDB\get_ins.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DrugInstructionsDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DrugInstructionsDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DrugInstructionsDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DrugInstructionsDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DrugInstructionsDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resources" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\OneDrive\药品说明书\DrugInstructionsDB\test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.parser" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.get_ins" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -251,7 +128,19 @@
       <workItem from="1627023293734" duration="8152000" />
       <workItem from="1627089991112" duration="16371000" />
       <workItem from="1627263588756" duration="41000" />
-      <workItem from="1627437553518" duration="1271000" />
+      <workItem from="1627437553518" duration="2073000" />
+      <workItem from="1627441853457" duration="12591000" />
+      <workItem from="1627539998146" duration="4452000" />
+      <workItem from="1627608972818" duration="5621000" />
+      <workItem from="1627615112123" duration="1214000" />
+      <workItem from="1627631524620" duration="2225000" />
+      <workItem from="1627696096010" duration="2723000" />
+      <workItem from="1627699001317" duration="816000" />
+      <workItem from="1627699837769" duration="399000" />
+      <workItem from="1627700254461" duration="1726000" />
+      <workItem from="1627711996669" duration="1273000" />
+      <workItem from="1627713292840" duration="261000" />
+      <workItem from="1627713569745" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="add pdfparser and getpdf">
       <created>1626338843836</created>
@@ -274,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627023587926</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish get basic info">
+      <created>1627441243807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627441243807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,9 +179,38 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="188a7d84-4293-42a4-86e3-ac0c00de8241">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -296,7 +221,9 @@
     <MESSAGE value="add pdfparser and getpdf" />
     <MESSAGE value="add docparser" />
     <MESSAGE value="add the schema of this database" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the schema of this database" />
+    <MESSAGE value="finish get basic info" />
+    <MESSAGE value="format the directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="format the directory" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -307,13 +234,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$test__1_.coverage" NAME="test 覆盖结果" MODIFIED="1627096327865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resources" />
-    <SUITE FILE_PATH="coverage/DrugInstructionsDB$test.coverage" NAME="test 覆盖结果" MODIFIED="1627096506924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DrugInstructionsDB$getdata.coverage" NAME="getdata 覆盖结果" MODIFIED="1626398927737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main.coverage" NAME="main 覆盖结果" MODIFIED="1627112657702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$Unittest__test__.coverage" NAME="Unittest (test 内) 覆盖结果" MODIFIED="1627454036692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$get_ins__1_.coverage" NAME="get_ins (1) 覆盖结果" MODIFIED="1626765345055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DrugInstructionsDB$request__1_.coverage" NAME="request (1) 覆盖结果" MODIFIED="1626658201996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$parser.coverage" NAME="parser 覆盖结果" MODIFIED="1627113798086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1627440990401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$test.coverage" NAME="test 覆盖结果" MODIFIED="1627096506924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$scratch.coverage" NAME="scratch 覆盖结果" MODIFIED="1627541406542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$t.coverage" NAME="t 覆盖结果" MODIFIED="1627542493237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$getdata.coverage" NAME="getdata 覆盖结果" MODIFIED="1626398927737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main.coverage" NAME="main 覆盖结果" MODIFIED="1627715391722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data1/request" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1627715354953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data1/request" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$request__1_.coverage" NAME="request (1) 覆盖结果" MODIFIED="1626658201996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DrugInstructionsDB$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1627697606117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/request" />
     <SUITE FILE_PATH="coverage/DrugInstructionsDB$get_ins.coverage" NAME="get_ins 覆盖结果" MODIFIED="1626772807835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
