@@ -2,6 +2,7 @@ import bs4
 import requests
 import pandas as pd
 import re
+import time
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
@@ -16,7 +17,7 @@ class GetData:
         r = requests.get(root_url, headers=headers, params=params, timeout=15)
         soup = bs4.BeautifulSoup(r.text, 'html.parser')
         self.drug_name = soup.find('div', attrs={'class': 'zhanhtit2'}).string.strip()
-        print(self.drug_name)
+        print(self.drug_name) # 药物名称
         self.div_list = soup.find_all('div', attrs={'class': 'padd6'})
 
     def get_BasicInfo(self): # 基本信息
@@ -240,33 +241,53 @@ class GetData:
 
 
 if __name__ == "__main__":
-    # BasicInfo = open('../BasicInfo.xlsx','a')
-    # DrugName = open('../BasicInfo.xlsx','a')
-    # Character = open('../BasicInfo.xlsx', 'a')
-    # Dosage = open('../BasicInfo.xlsx', 'a')
-    # AdverseReaction = open('../BasicInfo.xlsx', 'a')
-    # DrugInteraction = open('../BasicInfo.xlsx', 'a')
-    # Indication = open('../BasicInfo.xlsx', 'a')
-    # MainCompounds = open('../BasicInfo.xlsx', 'a')
-    # PharmacologyToxicology = open('../BasicInfo.xlsx', 'a')
-    # Pharmacokinetics = open('../BasicInfo.xlsx', 'a')
-    # Precautions = open('../BasicInfo.xlsx', 'a')
-    # Taboo = open('../BasicInfo.xlsx', 'a')
-    # Storage = open('../BasicInfo.xlsx', 'a')
-    # SpecialCrowd = open('../BasicInfo.xlsx', 'a')
+    BasicInfo = open("../BasicInfo.txt", 'a', encoding='utf-8')
+    DrugName = open("../DrugName.txt", 'a', encoding='utf-8')
+    Character = open("../Character.txt", 'a', encoding='utf-8')
+    Dosage = open("../Dosage.txt", 'a', encoding='utf-8')
+    AdverseReaction = open("../AdverseReaction.txt", 'a', encoding='utf-8')
+    DrugInteraction = open("../DrugInteraction.txt", 'a', encoding='utf-8')
+    Indication = open("../Indication.txt", 'a', encoding='utf-8')
+    MainCompounds = open("../MainCompounds.txt", 'a', encoding='utf-8')
+    PharmacologyToxicology = open("../PharmacologyToxicology.txt", 'a', encoding='utf-8')
+    Pharmacokinetics = open("../Pharmacokinetics.txt", 'a', encoding='utf-8')
+    Precautions = open("../Precautions.txt", 'a', encoding='utf-8')
+    Taboo = open("../Taboo.txt", 'a', encoding='utf-8')
+    Storage = open("../Storage.txt", 'a', encoding='utf-8')
+    SpecialCrowd = open("../SpecialCrowd.txt", 'a', encoding='utf-8')
 
     url = 'http://data.baidu1y.com/data/yytext.aspx'
     data = pd.read_excel('../../../resources/国家药品编码本位码信息（国产药品）.xlsx', engine='openpyxl', header=2)
-    for i in range(0,149344):
-        ApproveCode = data.iloc[i]['批准文号']
-        print(i)
-        r = requests.get(url, headers=headers, params={'ApproveCode': ApproveCode}, timeout=15)
+    # 国产药品和进口药品分别查询
+    for i in range(0, 3530):
+        ApproveCode = data.iloc[i]['注册证号']
         try:
-            number = bs4.BeautifulSoup(r.text, 'html.parser').find_all('div', attrs={'class': 'yyaodata29'})[1].find('a').get('href').split('?')[1][3:]
-        except IndexError:
-            continue
-        if number != '':
-            g = GetData(number)
+            r = requests.get(url, headers=headers, params={'ApproveCode': ApproveCode}, timeout=15)
+            try:
+                number = bs4.BeautifulSoup(r.text, 'html.parser').find_all('div', attrs={'class': 'yyaodata29'})[1].find('a').get('href').split('?')[1][3:]
+            except IndexError:
+                continue
+            if number != '':
+                g = GetData(number)
+                # 在不同的表中写入一系列数据
+                BasicInfo.write(str(g.get_BasicInfo()) + '\n')
+                DrugName.write(str(g.get_DrugName()) + '\n')
+                Character.write((str(g.get_Character())) + '\n')
+                Dosage.write(str(g.get_Dosage()) + '\n')
+                AdverseReaction.write(str(g.get_AdverseReaction()) + '\n')
+                DrugInteraction.write(str(g.get_DrugInteraction()) + '\n')
+                Indication.write(str(g.get_Indication()) + '\n')
+                MainCompounds.write(str(g.get_MainCompounds()) + '\n')
+                PharmacologyToxicology.write(str(g.get_PharmacologyToxicology()) + '\n')
+                Pharmacokinetics.write(str(g.get_Pharmacokinetics()) + '\n')
+                Precautions.write(str(g.get_Precautions()) + '\n')
+                Taboo.write(str(g.get_Taboo()) + '\n')
+                Storage.write(str(g.get_Storage()) + '\n')
+                SpecialCrowd.write(str(g.get_SpecialCrowd()) + '\n')
+        except:  # 断连错误
+            print('正在重新启动')
+            time.sleep(30)
+
 
 
 

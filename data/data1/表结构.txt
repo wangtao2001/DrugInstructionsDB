@@ -1,26 +1,27 @@
-BasicInfo  基本信息<approvalNum批准文号 drugsType药品类型 prescriptions处方类型 validityPeriod有效期  specification规格  enterprise生产企业>
+BasicInfo  基本信息 <approvalNum批准文号 drugsType药品类型 prescriptions处方类型 validityPeriod有效期  specification规格  enterprise生产企业>
+【74796】
 
-DrugName 名称<productName 商品名称 commonName通用名称 pinyinName拼音名称>
+DrugName 名称 <productName 商品名称 commonName通用名称 pinyinName拼音名称>
 
 Character  性状
 
-Dosage 用法用量
+Dosage 用法用量 1：n
 
-AdverseReaction 不良反应
+AdverseReaction 不良反应 1：n
 
-DrugInteraction  药物相互作用
+DrugInteraction  药物相互作用 1：n
 
-Indication  适应症
+Indication  适应症 1：n
 
 MainCompounds  主要成分
 
-PharmacologyToxicology  药理学毒理学
+PharmacologyToxicology  药理学和毒理学
 
 Pharmacokinetics 药代动力学
 
-Precautions 注意事项
+Precautions 注意事项 1：n
 
-Taboo  禁忌
+Taboo  禁忌 1：n
 
 Storage 贮存
 
