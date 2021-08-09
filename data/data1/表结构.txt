@@ -1,4 +1,4 @@
-BasicInfo  基本信息 <approvalNum批准文号 drugsType药品类型 prescriptions处方类型 validityPeriod有效期  specification规格  enterprise生产企业>
+BasicInfo  基本信息 <approvalNum批准文号 drugsType药品类型 prescriptions处方类型 validityPeriod有效期  specification规格  enterprise生产企业 dosageFrom剂型>
 【74796】
 
 DrugName 名称 <productName 商品名称 commonName通用名称 pinyinName拼音名称>

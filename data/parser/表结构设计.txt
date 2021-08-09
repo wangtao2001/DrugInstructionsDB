@@ -1,0 +1,8 @@
+【表的df形式与excel形式：单词开头大写】
+【属性首字母小写、其余大写】
+
+主要成分表 MianCompounds
+id编码、compounds成分、content含量
+
+辅料表 Accessories
+id编码、accessories辅料名称

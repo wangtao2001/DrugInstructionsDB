@@ -1,3 +1,8 @@
+# !/usr/bin/env python3
+# -*-coding: utf-8-*-
+# @author:  wangtao
+# @data: 21/07/31, Sat
+
 import bs4
 import requests
 import pandas as pd

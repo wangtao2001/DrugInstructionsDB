@@ -1,3 +1,8 @@
+# !/usr/bin/env python3
+# -*-coding: utf-8-*-
+# @author:  wangtao
+# @data: 21/07/03, Tues
+
 import pandas as pd
 import multiprocessing
 import xlsxwriter
