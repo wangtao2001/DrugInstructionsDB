@@ -1,5 +1,11 @@
+划分数据库【中药/中成药、化学药品、生物制品...】用title筛选
+1.中（成）药 主要成分MainCompounds =>成分+含量、辅料 data1（test1） + data2（test2）
+
+
 【表的df形式与excel形式：单词开头大写】
 【属性首字母小写、其余大写】
+
+中（成）药
 
 主要成分表 MianCompounds
 id编码、compounds成分、content含量
